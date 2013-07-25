@@ -1,0 +1,30 @@
+<body background="sun.jpg">
+<marquee><img src="image.gif" /></marquee>
+<br>
+
+<div  style="clear:both;text-align:center;">
+  <strong>Welcome to flicker</strong></div>
+
+
+<%= form_for :user , :url => users_path do |f| %>
+    <p>
+      <%= f.label :name %><br>
+      <%=f.text_field :name %>
+    </p>
+    <p>
+      <%=f.label :password %> <br>
+      <%= f.password_field :password %>
+    </p>
+    <p>
+
+      <%= f.submit value="Sign in" %>
+    </p>
+<% end %>
+
+<h3>New to Flicker</h3>
+<%= link_to 'Sign up', new_user_path %><br>
+</body>
+
+
+
+
