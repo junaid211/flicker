@@ -2,5 +2,5 @@ A simple opensource photo upload Project.
 
 Developed with custom authentication.
 
-Rails 3.2.3
+Rails 3.2.9
 Ruby 1.9.3
